@@ -1,3 +1,5 @@
+es (20 sloc)  295 Bytes
+
 #include "main.h"
 
 /**
@@ -20,3 +22,4 @@ void print_line(int n)
 		_putchar('\n');
 	}
 
+}
