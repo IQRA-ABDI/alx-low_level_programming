@@ -4,12 +4,14 @@
  * print_number - this function prints integers
  * *@n: operand for integers
  * Return: void
- */
+ */i
+
 void print_number(int n)
+{
 	int res = 1;
 	
 	if (n < 0 )
-	(
+	{
 	 _putchar('_');
 	 n = -n;
 	 }
@@ -23,4 +25,4 @@ void print_number(int n)
 	 n %= res;
 	 res /= 10;
 	 }
-	 }
+}
